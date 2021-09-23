@@ -70,21 +70,23 @@ li{
 	background-color: #00000055;
 	border-radius: 15px;
 	overflow: auto;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+
 }
 
 .avatar{
-	float:left;
-	width: 20%;
+	flex: 20%;
 	background-color: white;
 }
 
 .description{
-	float:right;
-	width: 80%;
+	flex: 80%;
 }
 
 li img{
-	padding: 60px 5px;
+	padding: 20px 5px;
 	vertical-align: middle;
 	border-radius: 50%;
 	background-color: white;
@@ -150,16 +152,21 @@ button:hover{
 	}
 
 	ul{
-		width: 80%;
-		padding: 0 10%;
+		width: 90%;
+		margin: 0 10%;
 		overflow: auto;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
 	}
 
 	li{
-		display: block;
-		float: left;
-		width: 47%;
+		width: 40%;
 		margin: 8px;
+	}
+
+	li img{
+		padding: 70px 5px;
 	}
 
 }
